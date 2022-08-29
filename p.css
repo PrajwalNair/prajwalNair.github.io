@@ -1,0 +1,60 @@
+
+form{
+    font-size: xx-large;
+    font-style: italic ;
+    color: blueviolet;
+    background-color: aqua;
+    
+
+  }
+  .username{
+  animation: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  color: darksalmon;
+  }
+  h1 {
+    padding:20px;
+    border:1px dotted darkred;
+    margin:20px;
+    background-color: azure;
+
+  }
+
+  tr :hover{
+    color: blueviolet;
+
+  }
+  tr {
+    color:darkseagreen;
+  }
+  .box {
+    border:50px solid coral ;
+    height:100px;
+    width:200px;
+    
+
+  
+  }
+
+  div > p {
+    color:blue;
+  }
+
+  div + p{
+    color: #04aa6d;
+}
+div ~ p{
+    color: #04aa6d;
+}
+.fixed {
+    position: fixed;
+}
+.relative {
+  position: relative;
+}
+.topleft {
+  position: absolute;
+  color: aliceblue;
+  left:0;
+}
+  
+
