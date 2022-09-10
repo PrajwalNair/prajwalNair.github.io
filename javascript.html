@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        console.log("welcome to javascript")
+
+        var abc;
+        console.log(abc)
+        typeof(abc)
+        console.log(typeof(abc))
+        abc="javascript"
+        console.log(abc)
+        console.log(typeof(abc))
+        abc=123
+        console.log(abc)
+        console.log(typeof(abc))
+        abc=12.3
+        console.log(abc)
+        console.log(typeof(abc))
+        abc='M'
+        console.log(abc)
+        console.log(typeof(abc))
+        abc=true
+        console.log(abc)
+        console.log(typeof(abc))
+        abc=0
+        console.log(abc)
+        console.log(typeof(abc))
+        abc=null
+        console.log(abc)
+        console.log(typeof(abc))
+       /* function display(){
+            console.log("Display the things")
+        }*/
+
+        function Torisu(){
+        var displayMessage = document.getElementById("message")
+        console.log(displayMessage)
+        displayMessage.innerHTML="calling Torisu"
+        
+
+        var message = document.getElementById("genderErrorMessage")
+        genderErrorMessage.innerHTML = "please select gender"
+        if(document.userregister.city.value == "0"){
+            console.log("Please select city")
+            var cityErrorMessage=document.getElementById("cityErrorMessage")
+            cityErrorMessage.innerHTML = "please select city"
+        }
+        var genderValue;
+        if(document.userregister.gender[0].checked == tyre){
+            genderValue = document
+        }
+        }
+
+
+
+
+    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <h1>introduction to javascript</h1>
+    <button onclick = "Torisu()" onmouseover="Torisu()">Torisu</button>
+    <div id ="message"></div>
+<form>
+<div class ="container">
+    <label>Enter Name</label>
+    <input type="text" name="anything">
+
+</div >
+<div class ="container">
+    <label>Contact</label>
+    <input type="text" name="num">
+
+</div>
+<button onclick="addition()"></button>
+<div class="container"> 
+    <label>Select Gender</label>
+    <input type="radio" name="gender">Male
+    <input type="radio" name="gender">Female
+    <input type="radio" name="gender">Others
+    <div id ="genderErrorMessage"></div>
+</div>
+<div class="container">
+    <label>Select City</label>
+    <select name="city">
+        <option value="0">--Select city--</option>
+        <option value="bang">--Bangalore--</option>
+        <option value="mangalore">--Mangalore--</option>
+
+    </select>
+</div>
+</form>
+
+</body>
+</html>
